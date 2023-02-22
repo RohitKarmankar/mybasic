@@ -14,10 +14,14 @@ public class Baasic01 {
 	public static void secondstaticMethod() {
 	System.out.println("second static method");	
 	}
+	public static void fourthstaticMethod() {
+	System.out.println("fourth static method");	
+	}
 	public static void main(String[] args) {
 		Baasic01 kk=new Baasic01();
 		kk.nonstaticmethod();
 		staticmethod();
-		secondstaticMethod()
+		secondstaticMethod();
+		fourthstaticMethod();
 	}
 }
