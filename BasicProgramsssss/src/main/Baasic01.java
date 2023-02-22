@@ -11,10 +11,13 @@ public class Baasic01 {
 	public void secondnonstaticmethod() {
 	System.out.println("second non static method");	
 	}
+	public static void secondstaticMethod() {
+	System.out.println("second static method");	
+	}
 	public static void main(String[] args) {
 		Baasic01 kk=new Baasic01();
 		kk.nonstaticmethod();
 		staticmethod();
-		
+		secondstaticMethod()
 	}
 }
